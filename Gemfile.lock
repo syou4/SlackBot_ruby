@@ -45,6 +45,7 @@ DEPENDENCIES
   faye-websocket
   http
   json
+  rack
   sinatra
 
 RUBY VERSION
