@@ -19,7 +19,7 @@ post '/slack/command' do
     else
         responseText = "例: 何時 / 今日 / 明日"
     end
-    responseText=text
+    # responseText=text
     json({
         text: responseText,
         response_type: 'in_channel',
